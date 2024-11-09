@@ -11,13 +11,13 @@ const Menu = () => {
         </p>
         } else if (type === "projects") {
         return <div className='links'>
-            <a target="_blank" href='https://joao-ortiz.github.io/products-sample/'>Products Website Sample Page</a>
-            <a target="_blank" href='https://joao-ortiz.github.io/my-react-ts-quizz/'>Quizz Typescript App</a>
-            <a target="_blank" href='https://joao-ortiz.github.io/cryptoapp/'>Crypto App</a>
+            <a target="_blank" rel="noreferrer" href='https://joao-ortiz.github.io/products-sample/'>Products Website Sample Page</a>
+            <a target="_blank" rel="noreferrer" href='https://joao-ortiz.github.io/my-react-ts-quizz/'>Quizz Typescript App</a>
+            <a target="_blank" rel="noreferrer" href='https://joao-ortiz.github.io/cryptoapp/'>Crypto App</a>
         </div>
         } 
         return <div className='links'>
-            <a target="_blank" href='https://github.com/joao-ortiz'>GitHub</a><a target="_blank" href='https://www.linkedin.com/in/joão-gabriel-ortiz-901b1a148/'>Linkedin</a>
+            <a target="_blank" rel="noreferrer" href='https://github.com/joao-ortiz'>GitHub</a><a target="_blank" href='https://www.linkedin.com/in/joão-gabriel-ortiz-901b1a148/'>Linkedin</a>
         </div>
     }
 
