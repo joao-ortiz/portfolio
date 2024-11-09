@@ -6,8 +6,8 @@ const Menu = () => {
     const info = (type) => {
         if(type === "about") {
         return <p className='about-text'>
-            My name is João Gabriel Ortiz, 21 years old and I love frontend development.
-            Work mainly with React, but also eager to learn new technologies and it's benefits.
+            Passionate and Frontend developer with 5+ years of experience. Specialized in Vue.js, HTML5, CSS3, and
+            JavaScript (ES6+), but I'm always eagering to learn cool new frontend techonolgies, with a strong understanding of responsive design and user-centered practices.
         </p>
         } else if (type === "projects") {
         return <div className='links'>
